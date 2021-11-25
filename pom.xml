@@ -33,3 +33,6 @@
     </developer>
   </developers>
 </project>
+mvn sonar:sonar \
+  -Dsonar.host.url=http://192.168.10.13:9000 \
+  -Dsonar.login=01cab66bd1b6ed672f8e2fd69ad0c6c8af5cbc1d
